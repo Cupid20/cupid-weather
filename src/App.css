@@ -19,8 +19,14 @@
   align-items: center;
   background-color: #1e1e28;
   width: 18rem;
-  height: 24rem;
+  height: 26rem;
   border-radius: 14px;
+}
+
+.weather-heading {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ff4500;
 }
 
 .city-search {
@@ -62,6 +68,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   color: #4a7f8f;
+  text-align: center;
 }
 
 .icon-temp {

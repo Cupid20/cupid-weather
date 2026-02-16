@@ -1,5 +1,3 @@
-
-
 import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
@@ -63,6 +61,9 @@ function App() {
   return (
     <div className="App">
       <div className="weather-app">
+        <div className="weather-heading">
+          <h2>Weather Today</h2>
+        </div>
         <div className="city-search">
           <input
             type="text"
@@ -74,7 +75,7 @@ function App() {
           />
         </div>
 
-        {weather.loading && <Oval height={50} width={50} />}
+        {weather.loading && <Oval height={30} width={30} />}
 
         {weather.error && (
           <div className="error-message">
